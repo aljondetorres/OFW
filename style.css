@@ -1,0 +1,62 @@
+* {margin:0;padding:0;box-sizing:border-box;font-family:Arial, Helvetica, sans-serif;}
+header {background:#003366;color:#fff;padding:15px 40px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100;}
+.logo {font-size:22px;font-weight:bold;}
+.menu {list-style:none;display:flex;gap:20px;}
+.menu a {text-decoration:none;color:#fff;padding:8px 12px;display:block;}
+.menu a:hover {background:#00509e;border-radius:4px;}
+
+/* HERO */
+.hero {min-height:100vh;background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Ur7zg.img?w=2250&h=1488&m=4&q=100') no-repeat center/cover;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;padding:0 20px;}
+.hero h1 {font-size:40px;margin-bottom:15px;}
+.hero p {font-size:18px;margin-bottom:30px;}
+.btn {padding:12px 25px;text-decoration:none;border-radius:5px;margin:5px;display:inline-block;}
+.primary {background:#ffcc00;color:#003366;font-weight:bold;}
+.secondary {background:transparent;border:2px solid #fff;color:#fff;}
+
+/* ABOUT US */
+.about {position:relative;background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://asianews.network/wp-content/uploads/2023/03/OFW-KIDS.jpeg') no-repeat center/cover;background-size:cover;color:#fff;padding:100px 20px;}
+.about-overlay {background-color:rgba(0,0,0,0.6);padding:40px 20px;border-radius:10px;max-width:1000px;margin:0 auto;text-align:center;}
+.about-content {display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin-top:40px;}
+.about-box {background:#fff;color:#003366;padding:25px;width:300px;border-radius:8px;box-shadow:0 4px 10px rgba(0,0,0,0.2);}
+.about-box h3 {margin-bottom:15px;}
+
+/* SERVICES */
+.services {position:relative;color:#fff;background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://theglobalfilipinomagazine.com/wp-content/uploads/2025/09/514346085_1064372309196567_4521389190285913591_n-1536x929.jpg') no-repeat center/cover;background-size:cover;padding:80px 20px;}
+.services-overlay {background-color:rgba(0,0,0,0.6);padding:60px 20px;border-radius:10px;max-width:1200px;margin:0 auto;text-align:center;}
+.services h2 {font-size:36px;margin-bottom:20px;}
+.services p.services-intro {font-size:18px;max-width:800px;margin:0 auto 40px;}
+.service-cards {display:flex;gap:20px;justify-content:center;flex-wrap:wrap;}
+.card {background:rgba(255,255,255,0.95);color:#003366;padding:20px;width:280px;border-radius:8px;box-shadow:0 4px 10px rgba(0,0,0,0.3);}
+.card h3 {margin-bottom:15px;}
+.card ul li {margin-bottom:8px;font-size:14px;}
+
+/* COMMUNITY SLIDESHOW */
+.community {padding:60px 20px;text-align:center;background-color:#f2f6fa;color:#003366;}
+.slideshow-container {position:relative;max-width:1000px;margin:40px auto 0;}
+.slide {display:none;position:relative;}
+.slide img {width:100%;height:500px;object-fit:cover;border-radius:10px;}
+.slide-text {position:absolute;bottom:20px;left:30px;color:#fff;text-align:left;background-color:rgba(0,0,0,0.5);padding:15px;border-radius:8px;}
+.dots-container {text-align:center;margin-top:15px;}
+.dot {height:15px;width:15px;margin:0 5px;background-color:#bbb;border-radius:50%;display:inline-block;cursor:pointer;}
+.dot.active {background-color:#003366;}
+.fade {animation-name:fade;animation-duration:1s;}
+@keyframes fade {from {opacity:.4} to {opacity:1}}
+
+/* RESOURCES */
+.resources {position:relative;color:#fff;background-color:#003366;padding:80px 20px;}
+.resources-overlay {background-color:rgba(0,0,0,0.6);padding:60px 20px;border-radius:10px;max-width:1200px;margin:0 auto;text-align:center;}
+.resources h2 {font-size:36px;margin-bottom:20px;}
+.resources p {font-size:18px;margin-bottom:40px;}
+.resources-cards {display:flex;flex-wrap:wrap;justify-content:center;gap:20px;}
+.resource-card {background:rgba(255,255,255,0.95);color:#003366;padding:20px;width:260px;border-radius:10px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.3);transition:transform 0.3s,box-shadow 0.3s;}
+.resource-card:hover {transform:translateY(-5px);box-shadow:0 6px 15px rgba(0,0,0,0.4);}
+.resource-card img {width:100%;height:140px;object-fit:cover;border-radius:8px;margin-bottom:15px;}
+.resource-card h3 {margin-bottom:10px;font-size:20px;}
+.resource-card p {font-size:14px;}
+
+/* CONTACT */
+section.contact {padding:60px 20px;text-align:center;}
+section.contact .contact-info {margin-top:20px;font-size:18px;}
+
+/* FOOTER */
+footer {background:#003366;color:#fff;text-align:center;padding:15px;}
